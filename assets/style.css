@@ -18,10 +18,10 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 50px;
     color: var(--secondary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
 }
 
 header a {
@@ -45,5 +45,34 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25); 
+}
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 45px;
+    margin: 0;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+
+footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.25vw;
 }
