@@ -5,8 +5,8 @@
 }
 
 :root {
-    --primary-color: #cbd4c2; 
-    --secondary-color: #247ba0; 
+    --primary-color: #9fb4c7; 
+    --secondary-color: #eeeeff; 
 }
 header {
     padding: 20px 35px;
@@ -48,6 +48,13 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.25); 
 }
 
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -75,4 +82,24 @@ footer nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.25vw;
+}
+
+.hero {
+    background-image: url(../assets/web-dev-hero.png);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-cta {
+    width: 40%;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px; 
+    line-height: 1.2;
+    font-style: italic;
+    color: #fffcff; 
 }
