@@ -103,3 +103,10 @@ footer nav ul li a {
     font-style: italic;
     color: #fffcff; 
 }
+
+.section-title {
+    font-size: 48px;
+    color: #28587b;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+}
