@@ -13,3 +13,5 @@ https://panecatl.github.io/Personal-Portfolio-/
 
 ## Contribution 
 Made with ❤️ by Yussel Panecatl
+
+![] (assets/Pictures/profile-picture.png)
