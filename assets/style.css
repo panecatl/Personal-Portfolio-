@@ -149,13 +149,6 @@ main {
     object-fit: contain;
 }
 
-.card_img:hover {
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    border-radius: 15px;
-    text-shadow: none;
-}
-
 .projects {
     display: flex;
     justify-content: center;
