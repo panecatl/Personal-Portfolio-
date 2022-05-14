@@ -3,6 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="./assets/style.css"/>
         <title>Yussel Panecatl Portfolio</title>
     </head>
@@ -11,7 +12,11 @@
         <!-- NAvigation -->
         <header>
             <h1>
-                <a href="index.html"> Yussel Panecatl</a>
+                <div class="profile-picture">
+                    <a href="index.html"> Yussel Panecatl</a>
+                    <br/>
+                    <img src="./assets/Pictures/profile-picture.png"/>
+                </div>
             </h1>
             
             <nav>
@@ -55,31 +60,46 @@
         <h2 class="section-title">Work</h2>
         <br />
         <main>
-            <section id="work" class ="card"> 
-                <header>Run Buddy</header>
-                    <a href="https://panecatl.github.io/run-buddy/" target="_blank">
-                        <img src="./assets/Pictures/run-buddy.png">
-                    </a>
-                </section>
-            </section>
-            <section class="card">
-                <header>Planet Calculator</header>
-                    <a href="#planet-calculator">
-                        <img src="./assets/Pictures/planet-calculator.png"/>
-                    </a>
-            </section>
+            <div>
+                <div class="projects">
+                    <section id="work" class="card">
+                        <header>Horiseon</header>
+                        <a href="https://panecatl.github.io/01-code-refactor/" target="_blank">
+                            <img class="card_img" src="./assets/Pictures/horiseon.png"/>
+                        </a>
+                    </section>
+                </div>
+                <div class="projects">
+                    <section class ="card"> 
+                        <header>Run Buddy</header>
+                            <a href="https://panecatl.github.io/run-buddy/" target="_blank">
+                                <img class=" card_img" src="./assets/Pictures/run-buddy.png" height: 200 width: 200/>
+                            </a>
+                        </section>
+                    </section>
+                    <section class="card">
+                        <header>Robot Gladiators</header>
+                            <a href="https://panecatl.github.io/Robot-Gladiators-/" target="_blank">
+                                <img class="card_img" src="./assets/Pictures/robot-gladiators.png"/>
+                            </a>
+                    </section>
+                </div>
+
+            <div class="projects">
             <section class="card">
                 <header>Que Bella Cookies</header>
                     <a href="#Que-Bella-Cookies">
-                        <img src="./assets/Pictures/qbclogo.JPG" />
+                        <img class="card_img" src="./assets/Pictures/qbclogo.JPG" />
                     </a>
             </section>
             <section class="card">
                 <header>Dreambox Lesson Counter</header>
                     <a href="dreambox-calculator">
-                        <img src="./assets/Pictures/dreambox.jpeg"/>
+                        <img class="card_img" src="./assets/Pictures/dreambox.jpeg"/>
                     </a>
             </section>
+            </div>
+            </div>
         </main>
 
 
